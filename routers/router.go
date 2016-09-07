@@ -12,10 +12,3 @@ func init() {
 	beego.Router("/user", &user.UserController{})
 
 }
-
-func userModule() {
-}
-
-func shopModle() {
-
-}

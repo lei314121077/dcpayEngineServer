@@ -23,3 +23,10 @@
 2016/09/02 17:59:45 [D] [server.go:2081] |[42m 200 [0m|   4.256548ms|   match|[44m [0m GET     /user   r:/user
 2016/09/02 18:51:23 [I] [asm_amd64.s:1998] http server Running on http://:8080
 2016/09/02 18:51:25 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/06 09:58:42 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/06 10:10:14 [D] [server.go:2081] |[42m 200 [0m|   4.666495ms|   match|[44m [0m GET     /     r:/
+2016/09/06 14:39:42 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/06 14:39:50 [D] [server.go:2081] |[42m 200 [0m|   7.491605ms|   match|[44m [0m GET     /     r:/
+2016/09/07 11:30:59 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/07 11:32:11 [D] [server.go:2081] |[42m 200 [0m|    4.85211ms|   match|[44m [0m GET     /     r:/
+2016/09/07 14:13:39 [I] [asm_amd64.s:1998] http server Running on http://:8080
