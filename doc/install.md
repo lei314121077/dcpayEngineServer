@@ -3,6 +3,7 @@
 	go : version go1.6.2 darwin/amd64
 	bee : version 1.5.1
 	beego :version 1.7.1
+	mongodb : version: 3.0.7
 	
 ## 包安装
 

@@ -16,10 +16,6 @@ func init() {
 
 }
 
-//新增一个文档
-func insert_doc(){
-	
-}
 
 
 
