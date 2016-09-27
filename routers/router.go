@@ -2,7 +2,7 @@ package routers
 
 import (
 	"dc_web/controllers"
-	user "dc_web/user_module"
+	user "dc_web/controllers/user_controller"
 
 	"github.com/astaxie/beego"
 )

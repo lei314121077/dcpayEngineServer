@@ -40,6 +40,7 @@ func init() {
     //关闭连接池
     defer db.Close()
 }
+
 // http://dmdgeeker.com/goBook/docs/ch05/overview.html
 //TODO 新增一条记录  
 func insertProcess (tabname string, column make(map[string]string))  (res int){
@@ -48,8 +49,11 @@ func insertProcess (tabname string, column make(map[string]string))  (res int){
 	*param column dict_type{属性名:属性值}
 	*return 执行结果
 	**/
+	
 	stmt, err := db.Prepare('INSERT %s (%s) values (%s)')
 	res, err := stmt.Exec
+
+
 	return result
 }
 
@@ -61,5 +65,28 @@ func queryProcess(tabname string, column [...]string, conditions make(map[string
 	*return res 
 	**/
 
+
 }
+
+//TODO 单个查询
+func queryOne(tabname string, cloumn [...]string, conditions make(map[string]string))(res string){
+	/**
+	*param tabname 数据库表名
+	*param cloumn  array_type{属性名1，属性名2}
+	*return res 	
+	**/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
