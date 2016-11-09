@@ -1,2 +1,6 @@
 2016/11/09 14:11:15 [I] [asm_amd64.s:1998] http server Running on http://:8080
 2016/11/09 14:11:24 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/09 15:12:08 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/09 15:38:32 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/09 15:38:41 [D] [server.go:2081] |[42m 200 [0m|   4.450205ms|   match|[44m [0m GET     /     r:/
+2016/11/09 15:38:48 [D] [server.go:2081] |[42m 200 [0m|   4.801987ms|   match|[44m [0m GET     /     r:/
