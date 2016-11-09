@@ -1,4 +1,4 @@
-package controllers/userController
+package user_controller
 
 import (
 	"github.com/astaxie/beego"
