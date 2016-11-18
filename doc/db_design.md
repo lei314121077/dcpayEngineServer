@@ -30,31 +30,31 @@ drop table if exists dc_trade_payment_record;
 drop table if exists seq_table;
 
 /*==============================================================*/
-/* table: dc_account                            资金账户表        */
+/* table: dc_account_tb                            资金账户表        */
 /*==============================================================*/
-create table dc_account
+create table dc_account_tb
 (
-   id                   varchar(50) not null,
-   create_time          datetime not null,
-   edit_time            datetime,
-   version              bigint not null,
-   remark               varchar(200),
-   account_no           varchar(50) not null,
-   balance              decimal(20,6) not null,
-   unbalance            decimal(20,6) not null,
-   security_money       decimal(20,6) not null,
-   status               varchar(36) not null,
-   total_income         decimal(20,6) not null,
-   total_expend         decimal(20,6) not null,
-   today_income         decimal(20,6) not null,
-   today_expend         decimal(20,6) not null,
-   account_type         varchar(50) not null,
-   sett_amount          decimal(20,6) not null,
+   id                   varchar(50) not null,            //ID   
+   create_time          datetime not null,               //创建时间
+   edit_time            datetime,                        //更新时间
+   version              bigint not null,                 //版本号
+   remark               varchar(200),                    //描述、备注
+   account_no           varchar(50) not null,            //账户ID
+   balance              decimal(20,6) not null,          //平账
+   unbalance            decimal(20,6) not null,          //不平账
+   security_money       decimal(20,6) not null,          //安全资金
+   status               varchar(36) not null,            //状态
+   total_income         decimal(20,6) not null,          //总收益
+   total_expend         decimal(20,6) not null,          //总花费
+   today_income         decimal(20,6) not null,          //当日收益
+   today_expend         decimal(20,6) not null,          //当日消费
+   account_type         varchar(50) not null,            //账户类型
+   sett_amount          decimal(20,6) not null,          //用户ID
    user_no              varchar(50),
    primary key (id)
 );
 
-alter table dc_account comment '资金账户表';
+alter table dc_account_tb comment '资金账户表';
 
 /*==============================================================*/
 /* table: dc_account_history           资金账户流水表             */

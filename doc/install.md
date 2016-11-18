@@ -36,4 +36,18 @@
 		beego.BConfig.WebConfig.StaticDir
 
 	* StaticExtensionsToGzip 允许哪些后缀名的静态文件进行gzip压缩，默认支持 .css 和 .js
-		beego.BConfig.WebConfig.StaticExtensionsToGzip = []string{".css", ".js"} 等价config文件中 StaticExtensionsToGzip = .css, .js
+	* EnableXSRF 是否开启 XSRF，默认为 false，不开启,现暂时设置为True。
+	* XSRFKEY  XSRF 的 key 信息，默认值是 beegoxsrf。 EnableXSRF＝true 才有效
+	* XSRFExpire XSRF 过期时间，默认值是 0，不过期。
+	[session](https://beego.me/docs/mvc/controller/session.md)
+	* SessionOn session 是否开启，默认是 false。
+	* SessionProvider session 的引擎，默认是 memory，详细参见 session 模块。
+	* SessionName 存在客户端的 cookie 名称，默认值是 beegosessionID。  现暂时设置为 "dcpaySessionID"
+	* SessionGCMaxLifetime session 过期时间，默认值是 3600 秒。
+
+
+
+
+
+
+

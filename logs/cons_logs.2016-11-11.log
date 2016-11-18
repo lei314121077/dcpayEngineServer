@@ -1,0 +1,13 @@
+2016/11/09 14:11:15 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/09 14:11:24 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/09 15:12:08 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/09 15:38:32 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/09 15:38:41 [D] [server.go:2081] |[42m 200 [0m|   4.450205ms|   match|[44m [0m GET     /     r:/
+2016/11/09 15:38:48 [D] [server.go:2081] |[42m 200 [0m|   4.801987ms|   match|[44m [0m GET     /     r:/
+2016/11/10 10:23:32 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/10 10:23:50 [D] [server.go:2081] |[42m 200 [0m|   4.460804ms|   match|[44m [0m GET     /     r:/
+2016/11/10 15:00:16 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/10 15:33:52 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/10 15:38:42 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/11 10:34:13 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/11 10:34:16 [D] [server.go:2081] |      127.0.0.1|[42m 200 [0m|   4.841321ms|   match|[44m GET     [0m /     r:/
