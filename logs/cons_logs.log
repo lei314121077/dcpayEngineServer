@@ -3,3 +3,19 @@
 2016/11/18 11:09:09 [I] [asm_amd64.s:1998] http server Running on http://:8080
 2016/11/18 16:33:44 [I] [asm_amd64.s:1998] http server Running on http://:8080
 2016/11/18 16:33:45 [D] [server.go:2081] |      127.0.0.1|[42m 200 [0m|   6.861759ms|   match|[44m GET     [0m /     r:/
+2016/11/18 16:50:21 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/18 16:50:24 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/18 16:50:26 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/18 16:50:53 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/18 16:52:49 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/18 16:53:53 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/18 16:56:17 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/18 16:58:04 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/18 16:58:08 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/18 16:58:49 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/18 16:59:05 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/18 16:59:23 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/18 16:59:42 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/18 16:59:44 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/18 17:00:14 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/11/18 17:00:35 [I] [asm_amd64.s:1998] http server Running on http://:8080
